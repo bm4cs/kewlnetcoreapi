@@ -1,0 +1,21 @@
+{
+  "name": "mock-oidc-user-server",
+  "version": "0.0.2",
+  "description": "A mock user server providing OpenID Connect (OIDC) flows for local dev.",
+  "main": "server.js",
+  "author": "Ben Simmonds",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.15.0 <12"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "generate-keys": "node generate-keys.js"
+  },
+  "dependencies": {
+    "camelcase": "^5.0.0",
+    "jose": "^1.27.3",
+    "oidc-provider": "^6.28.0"
+  },
+  "devDependencies": {}
+}
