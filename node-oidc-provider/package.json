@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "camelcase": "^5.0.0",
-    "jose": "^1.27.3",
+    "jose": "^1.28.1",
     "oidc-provider": "^6.28.0"
   },
   "devDependencies": {}
